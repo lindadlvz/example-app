@@ -23,7 +23,7 @@
     <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" value="{{old('nombre')}}"><br/>
     <label for="email">Email:</label> <input type="text" id="email" name="email" value="{{old('email')}}"><br/>
     <input type="checkbox" id="publicidad" name="publicidad" @checked(old('publicidad',true))><label for="publicidad">Recibir Publicidad</label>
-    <label for="mensaje">Mensaje:</label> <br/>
+    <label for="mensaje">Mensaje largo:</label> <br/>
     <textarea id="mensaje" name="mensaje"> {{old('mensaje')}}</textarea><br/>
     <input type="submit" value="Enviar"/>
     </form>
